@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 132" fill="#1d2b47">
+
+  <!-- "Neo" -->
+  <text x="4" y="100"
+    font-family="'Arial Black','Helvetica Neue',Arial,sans-serif"
+    font-weight="900"
+    font-size="84">Neo</text>
+
+  <!-- ═══ ICON — center (212, 63), radius 44 ═══ -->
+
+  <!-- Outer ring -->
+  <circle cx="212" cy="63" r="44" fill="none" stroke="#1d2b47" stroke-width="9"/>
+
+  <!-- Diagonal bar ↗ (/ direction) -->
+  <rect x="174" y="55" width="76" height="15" rx="7.5"
+    transform="rotate(-48 212 62.5)"/>
+
+  <!-- Diagonal bar ↘ (\ direction) -->
+  <rect x="174" y="55" width="76" height="15" rx="7.5"
+    transform="rotate(48 212 62.5)"/>
+
+  <!-- Center dot -->
+  <circle cx="212" cy="63" r="11"/>
+
+  <!-- Small dots (right of circle) -->
+  <circle cx="253" cy="50" r="5"/>
+  <circle cx="261" cy="65" r="3.5"/>
+  <circle cx="253" cy="78" r="4.5"/>
+
+  <!-- Subscript "2" + curl (bottom-left of icon) -->
+  <text x="172" y="107"
+    font-family="'Arial Black',Arial,sans-serif"
+    font-weight="900"
+    font-size="15">2</text>
+  <path d="M168 100 C164 107 165 113 170 115"
+    fill="none" stroke="#1d2b47" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- ":Peptideos" -->
+  <text x="270" y="100"
+    font-family="'Arial Black','Helvetica Neue',Arial,sans-serif"
+    font-weight="900"
+    font-size="84">:Peptideos</text>
+
+</svg>
