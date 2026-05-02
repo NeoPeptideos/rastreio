@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 132" fill="#1d2b47">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 132" fill="#1d2b47">
 
-  <!-- "Neo" -->
-  <text x="4" y="100"
-    font-family="'Arial Black','Helvetica Neue',Arial,sans-serif"
+  <!-- "Ne" -->
+  <text x="4" y="102"
+    font-family="'Nunito','Nunito Black','Arial Rounded MT Bold','Arial Black',sans-serif"
     font-weight="900"
-    font-size="84">Neo</text>
+    font-size="88">Ne</text>
 
-  <!-- ═══ ICON — center (212, 63), radius 44 ═══ -->
+  <!-- ═══ ICON (o de Neo) — center (228, 60), radius 46 ═══ -->
 
   <!-- Outer ring -->
-  <circle cx="212" cy="63" r="44" fill="none" stroke="#1d2b47" stroke-width="9"/>
+  <circle cx="228" cy="60" r="46" fill="none" stroke="#1d2b47" stroke-width="10"/>
 
-  <!-- Diagonal bar ↗ (/ direction) -->
-  <rect x="174" y="55" width="76" height="15" rx="7.5"
-    transform="rotate(-48 212 62.5)"/>
+  <!-- Bar ↘↖ -->
+  <rect x="188" y="51.5" width="80" height="15" rx="7.5"
+    transform="rotate(47 228 59)"/>
 
-  <!-- Diagonal bar ↘ (\ direction) -->
-  <rect x="174" y="55" width="76" height="15" rx="7.5"
-    transform="rotate(48 212 62.5)"/>
+  <!-- Bar ↗↙ -->
+  <rect x="188" y="51.5" width="80" height="15" rx="7.5"
+    transform="rotate(-47 228 59)"/>
 
   <!-- Center dot -->
-  <circle cx="212" cy="63" r="11"/>
+  <circle cx="228" cy="59" r="11.5"/>
 
   <!-- Small dots (right of circle) -->
-  <circle cx="253" cy="50" r="5"/>
-  <circle cx="261" cy="65" r="3.5"/>
-  <circle cx="253" cy="78" r="4.5"/>
+  <circle cx="269" cy="45" r="5.5"/>
+  <circle cx="279" cy="61" r="4"/>
+  <circle cx="269" cy="76" r="5"/>
 
   <!-- Subscript "2" + curl (bottom-left of icon) -->
-  <text x="172" y="107"
-    font-family="'Arial Black',Arial,sans-serif"
+  <text x="183" y="109"
+    font-family="'Nunito','Arial Black',sans-serif"
     font-weight="900"
-    font-size="15">2</text>
-  <path d="M168 100 C164 107 165 113 170 115"
-    fill="none" stroke="#1d2b47" stroke-width="2.6" stroke-linecap="round"/>
+    font-size="16">2</text>
+  <path d="M179 101 C174 109 175 116 181 118"
+    fill="none" stroke="#1d2b47" stroke-width="2.8" stroke-linecap="round"/>
 
   <!-- ":Peptideos" -->
-  <text x="270" y="100"
-    font-family="'Arial Black','Helvetica Neue',Arial,sans-serif"
+  <text x="290" y="102"
+    font-family="'Nunito','Nunito Black','Arial Rounded MT Bold','Arial Black',sans-serif"
     font-weight="900"
-    font-size="84">:Peptideos</text>
+    font-size="88">:Peptideos</text>
 
 </svg>
