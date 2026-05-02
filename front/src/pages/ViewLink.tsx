@@ -132,14 +132,12 @@ export default function ViewLink() {
   const displayContent = cleanContent(link.content);
   const progressPct = (activeStep / (STEPS.length - 1)) * 100;
 
-  // Simula timeline de eventos baseada no passo atual.
-  // Todos os eventos ficam no mesmo dia do createdAt, apenas variando hora.
+  // Simula timeline: primeiro evento na hora do createdAt, subsequentes +1h cada.
   const baseDate = new Date(link.createdAt);
-  const baseDay = new Date(baseDate.getFullYear(), baseDate.getMonth(), baseDate.getDate());
   const timeline = STEPS.slice(0, activeStep + 1)
     .map((s, i) => ({
       label: s.label,
-      date: new Date(baseDay.getTime() + (8 + i * 3) * 60 * 60 * 1000).toISOString(),
+      date: new Date(baseDate.getTime() + i * 60 * 60 * 1000).toISOString(),
     }))
     .reverse();
 
